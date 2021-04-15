@@ -1,3 +1,5 @@
+#This repository was copied: https://github.com/GlUTEN-BASH/discord_crasher/
+
 # Discord Crasher Bot/DCB
 ![Лого](https://i.ibb.co/VjfhxXQ/photo-2021-02-13-22-31-00.jpg)
 # Установка
