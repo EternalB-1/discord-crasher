@@ -38,4 +38,4 @@ $game (Role location in the role hierarchy) - issues a role with administrator r
 
 $gamehelp - displays a list of roles in the console according to the hierarchical ladder(only the opposite, that is, @everyone at the top, and the highest at the bottom)
 
-<h2>#This repository was copied: https://github.com/GlUTEN-BASH/discord_crasher/</h2>
+<h3>#This repository was copied: https://github.com/GlUTEN-BASH/discord_crasher/</h3>
