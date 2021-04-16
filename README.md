@@ -1,83 +1,41 @@
-#This repository was copied: https://github.com/GlUTEN-BASH/discord_crasher/
+<h2>Install:</h2>
 
-# Discord Crasher Bot/DCB
-![Лого](https://i.ibb.co/VjfhxXQ/photo-2021-02-13-22-31-00.jpg)
-# Установка
-```
 sudo apt install python3 python3-pip
+
 pip3 install discord
+
 pip3 install colorama
+
 pip3 install requests
-git clone https://github.com/GlUTEN-BASH/discord_crasher/
-cd discord_crasher
-```
-# Запуск 
-Для начала отредактируйте файл modded.py, и в самом конце найдите строку
-```
-client.run('токен сюда')
-```
-Где написанно 'токен сюда' вставьте токен своего бота, не удаляя кавычки.
 
-Далее сохраните изменения.
+git clone https://github.com/EternalB-1/discord-crasher_en
 
-Во вкладке bot в discord developers нужно пролистать вниз и включить server members intent
-![Воть](https://i.ibb.co/c8cZ68g/unknown.png)
+cd discord_crasher_en
 
-Для запуска пропишите:
-```
+nano modded.py
+
+client.run('your_token')
+
+<h2>Use:</h2>
+
+<h3>In the bot tab in discord developers, scroll down and enable server members intent</h3>
+
+![Check](https://i.ibb.co/c8cZ68g/unknown.png)
+
 python3 modded.py
-```
 
-Готово! Бот должен быть онлайн, а в окне программы появиться:
-![вот](https://i.ibb.co/CBjMWqf/photo-2021-02-13-22-41-43.jpg)
+The bot on the server needs to be issued to the administrator, or to embed the administrator in advance in OAuth2
 
-Боту на сервере нужно выдать администратора, или встроить администраторку заранее в OAuth2
+<h2>Commands:</h2>
 
-Команды:
-$hlp - автокраш сервера
-$ml - спам сообщениями в определенном канале
-$start - удаление всех ролей что сможет бот
-$game (Место роли по иерархии ролей) - выдает роль с правами администратора тому кто ввел, нужно указать место роли, желательно выше обычной роли пользователей
-$gamehelp - выводит в консоли список ролей по иерархической лестнице(только наоборот, тоесть @everyone сверху, а самая высокая снизу)
+$hlp - auto crash of the server
 
+$ml - spam messages in a specific channel
 
-# FAQ:
-# Не работает на windows:
-Качаем python 3.9 - https://www.python.org/downloads/
-В установщике ставим галочку add to path
-Далее устанавливаем
-и открываем cmd 
-Пишем:
-```
-py -3 -m pip install -U discord.py
-py -3 -m pip install colorama
-py -3 -m pip install requests
-```
-Готово! Можно открывать (уже просто зайдя в папку со скачанной программой, и двумя щелчками мышки).
+$start - delete all roles that the bot can do
 
-# Не крашит, только меняет имя:
+$game (Role location in the role hierarchy) - issues a role with administrator rights to the one who entered it, you need to specify the role location, preferably above the usual user role
 
-Вы не дали боту права администратора на сервере, это нужно было сделать заранее, во вкладе OAuth2 в создании приглашения.
+$gamehelp - displays a list of roles in the console according to the hierarchical ladder(only the opposite, that is, @everyone at the top, and the highest at the bottom)
 
-![Вот так](https://i.ibb.co/nnsgk4w/chrome-kdp4-Swtw22.png)
-
-# Сразу закрывается:
-
-Вы не ввели токен в программу.
-
-Для этого нужно отредактировать программу, и в самом конце в строке
-```
-client.run('токен сюда')
-```
-вместо слов "токен сюда" вводите ваш токен, !!!не убирая кавычки!!!
-
-# Дисклеймер и контакты
-Внимание: Автор не берет на себя ответственность за совершенные вами действия, поэтому не надо писать что-то по типу "ой, я нажил себе проблем"
-
-Телеграмм автора для связи: @GLUTESHUNECHKA
-
-Дискорд:ГЛ|-0ТЕН#6593
-
-Дискорд сервер:https://discord.gg/Un7umZQp8z
-
-Всем цмок ;)
+<h2>#This repository was copied: https://github.com/GlUTEN-BASH/discord_crasher/</h2>
